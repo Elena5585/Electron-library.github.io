@@ -1,5 +1,5 @@
 # Electron-library.github.io
-(DESKTOP APPLICATION)
+#(DESKTOP APPLICATION)
 
 - Десктопное приложение (ELECTRON)
 - HTML, CSS, JAVASCRIPT, ELECTRON
