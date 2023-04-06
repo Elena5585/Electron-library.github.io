@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+html{height: 100%; width: 100%; margin: 0; padding: 0;}
+body{margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: rgb(168, 155, 143); 
+border: 10px solid rgb(78, 71, 66); box-shadow: inset 0 0 3px 7px rgb(198, 183, 169) ; }
+.container{display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 30px; row-gap: 10px;}
+.container__head{display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-self: start; column-gap: 50px; 
+width: 90%; margin-left: 30px;}
+.head__descr{color: rgb(60, 55, 51); font-weight: 600; font-size: 1.1rem;}
+.container__title{background-color: rgb(60, 55, 51); padding: 15px; border-radius: 8px; color: rgb(198, 183, 169); 
+align-self: start; font-size: 1.5rem; margin-top: 0; }
+.content{display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 30px; flex-wrap: wrap;}
+.content__block{ width: 29%; flex-basis: 29%; height: 230px; display: flex; flex-direction: column; justify-content: start; align-items: center;
+ row-gap: 8px; background-color: rgb(60, 55, 51); border-radius: 10px; box-shadow: 0 0 0 10px rgb(241, 223, 207); padding: 10px;}
+.block__img{height: 120px;}
+.block__book-link{color: rgb(241, 223, 207); text-decoration: none; font-size: 1.3rem; letter-spacing: 1px; 
+font-weight: 500; display: block; padding: 5px;}
+.block__book-author{margin-top: 0; background-color: rgb(211, 194, 180); border-radius: 5px; padding: 8px;  letter-spacing: 1px; 
+font-size: 1rem; font-weight: 500; color: rgb(60, 55, 51);}
+.empty{text-decoration: none; padding: 0; display: block;}
